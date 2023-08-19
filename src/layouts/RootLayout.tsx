@@ -4,13 +4,14 @@ import { Grid, GridItem } from '@chakra-ui/react'
 
 export const RootLayout = () => (
   <>
-    <Grid templateColumns={'repeat(6, 1fr)'} bg={'gray.50'}>
+    <Grid templateColumns={'repeat(6, 1fr)'} bg={'gray.100'}>
       <GridItem
         as={'aside'}
         colSpan={{ base: 6, lg: 2, xl: 1 }}
-        bg={'purple.400'}
+        bg={'brand.500'}
         minH={{ lg: '100vh' }}
-        p={{ base: '20px', lg: '30px' }}>
+        p={{ base: '20px', lg: '30px' }}
+      >
         <Sidebar />
       </GridItem>
 

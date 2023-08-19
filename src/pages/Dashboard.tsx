@@ -28,11 +28,11 @@ export const Dashboard = () => {
             as={'article'}
             key={task.id}
             borderTop={'8px'}
-            borderColor={'purple.400'}
-            bg={'white'}>
+            borderColor={'brand.400'}
+          >
             <CardHeader as={'hgroup'}>
               <Flex gap={5}>
-                <Avatar src={task.img.toString()} /> {/* todo: fix CORS/CORB */}
+                <Avatar src={task.img.toString()} />
                 <Box>
                   <Heading as={'h3'} size={'sm'}>
                     {task.title}

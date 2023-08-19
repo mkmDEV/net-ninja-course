@@ -18,11 +18,11 @@ import {
 
 export const Profile = () => {
   const tabStyles = {
-    _selected: { color: 'white', bg: 'purple.400' }
+    _selected: { color: 'white', bg: 'brand.400' }
   }
 
   return (
-    <Tabs mt={'40px'} p={'20px'} colorScheme={'purple'} variant={'enclosed'}>
+    <Tabs mt={'40px'} p={'20px'} variant={'enclosed'}>
       <TabList>
         <Tab sx={tabStyles}>Account Info</Tab>
         <Tab sx={tabStyles}>Task history</Tab>

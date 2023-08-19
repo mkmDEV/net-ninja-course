@@ -27,7 +27,7 @@ export const Create = () => (
         />
       </FormControl>
       <FormControl mb={'40px'} display={'flex'} alignItems={'center'}>
-        <Checkbox colorScheme={'purple'} name={'isPriority'} size={'lg'} />
+        <Checkbox colorScheme={'brand'} name={'isPriority'} size={'lg'} />
         <FormLabel mb={0} ml={'10px'}>
           Make this a priority task.
         </FormLabel>

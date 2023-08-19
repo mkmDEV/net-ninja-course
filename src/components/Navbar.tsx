@@ -1,7 +1,6 @@
 import {
   Avatar,
   AvatarBadge,
-  Box,
   Button,
   Flex,
   Heading,
@@ -34,7 +33,7 @@ export const Navbar = () => {
         <Spacer />
 
         <HStack spacing={'20px'}>
-          <Avatar name={'mario'} bg="purple" src={'mario.png'}>
+          <Avatar name={'mario'} bg="brand.500" src={'mario.png'}>
             <AvatarBadge w={'1.3rem'} bg={'teal.500'}>
               <Text fontSize={'xs'} color={'white'}>
                 3
@@ -42,7 +41,7 @@ export const Navbar = () => {
             </AvatarBadge>
           </Avatar>
           <Text>mario@netninja.dev</Text>
-          <Button colorScheme={'purple'} onClick={showToast}>
+          <Button colorScheme={'brand'} onClick={showToast}>
             Logout
           </Button>
         </HStack>
