@@ -18,6 +18,7 @@ import { TaskType } from '../types.ts'
 import { EditIcon, ViewIcon } from '@chakra-ui/icons'
 
 export const Dashboard = () => {
+  // @ts-ignore
   const { tasks } = useLoaderData()
 
   return (
@@ -28,8 +29,7 @@ export const Dashboard = () => {
             as={'article'}
             key={task.id}
             borderTop={'8px'}
-            borderColor={'brand.400'}
-          >
+            borderColor={'brand.400'}>
             <CardHeader as={'hgroup'}>
               <Flex gap={5}>
                 <Avatar src={task.img.toString()} />

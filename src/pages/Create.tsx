@@ -38,6 +38,7 @@ export const Create = () => (
   </Box>
 )
 
+// @ts-ignore
 export const createAction = async ({ request }) => {
   const data = await request.formData()
 
